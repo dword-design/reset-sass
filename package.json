@@ -1,11 +1,9 @@
 {
   "name": "@dword-design/reset-sass",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "src/index.scss",
   "license": "MIT",
-  "devDependencies": {
-    "@dword-design/base": "^0.3.2"
-  },
+  "devDependencies": {},
   "dependencies": {
     "reset-css": "^4.0.1"
   }
