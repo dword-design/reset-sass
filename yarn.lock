@@ -762,22 +762,18 @@
     fs-extra "^8.1.0"
     get-package-name "^1.0.0"
 
-"@dword-design/base-config-sass@^1.0.0":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@dword-design/base-config-sass/-/base-config-sass-1.1.3.tgz#5da132360a5add8b2d20596ad3e4cb91e32edf95"
-  integrity sha512-AKdqZgST5XSKdYfZ01Kvh/bs49XPbpy8lTQzeroCWkCzpQtmPNVrxPOyYBhlUo7Q/sbP6Y2zbnFFsELvKcbZMw==
+"@dword-design/base-config-sass@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@dword-design/base-config-sass/-/base-config-sass-2.0.0.tgz#d827446b95ba5490c72fac1826fc36bde807ed98"
+  integrity sha512-rZpNWiv8OCCYh8288kjlTUoC5J4uXZ9FRM7v9yNmxyVapBwAgsNXCWEJrK6cfQ8YZM0alRXnf9eEyNk4ZIaE1A==
   dependencies:
     "@dword-design/base-config-node" "^1.3.3"
+    "@dword-design/depcheck-sass-parser" "^1.0.0"
     child-process-promise "^2.2.1"
     chokidar "^3.3.0"
     debounce "^1.2.0"
     fs-extra "^8.1.0"
-    get-package-name "^1.1.0"
     glob-promise "^3.4.0"
-    jsontosass "^0.1.1"
-    node-sass "^4.13.0"
-    require-package-name "^2.0.1"
-    resolve-from "^5.0.0"
 
 "@dword-design/base@^3.6.0":
   version "3.7.0"
@@ -809,6 +805,17 @@
     projectz "^1.12.0"
     safe-readfile "^1.0.2"
 
+"@dword-design/depcheck-sass-parser@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@dword-design/depcheck-sass-parser/-/depcheck-sass-parser-1.0.0.tgz#08ad77d76922ccd28f239aa3ce0c4bdec0500232"
+  integrity sha512-+0MS7x7WRrUxN0h/Pu/aVa+v0I5OpJ3Qz3AMgKpLAuLeOIMWxqLcV+flocWcO7nJfpoyzp3P/4RR2MynfnX1Lw==
+  dependencies:
+    "@dword-design/functions" "^2.2.4"
+    "@dword-design/node-sass-importer" "^1.0.0"
+    get-package-name "^1.1.0"
+    node-sass "^4.13.0"
+    require-package-name "^2.0.1"
+
 "@dword-design/eslint-config@^1.2.0":
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@dword-design/eslint-config/-/eslint-config-1.2.1.tgz#e3abc2a954919d6afe4d2b6d2a8a07100825e6c9"
@@ -824,7 +831,7 @@
     eslint-plugin-prefer-arrow "^1.1.6"
     get-package-name "^1.0.0"
 
-"@dword-design/functions@^2.2.2":
+"@dword-design/functions@^2.2.2", "@dword-design/functions@^2.2.4":
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/@dword-design/functions/-/functions-2.2.4.tgz#c6f12f9313433226183e8741d17bf18edd67ef8f"
   integrity sha512-EOBaoFroyJ59QZ+Oh111SuTWltTnqMsTCDoRyzZtbYn6tFBqeR6p760KukkdO7oapaazaJZLm/B45f7q2XW1Zg==
@@ -840,6 +847,15 @@
   dependencies:
     package-name-regex "^1.0.1"
     stable-version-regex "^1.0.1"
+
+"@dword-design/node-sass-importer@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@dword-design/node-sass-importer/-/node-sass-importer-1.0.0.tgz#f92f114cf7658f91458a8bdbe5c8f94ac95650b4"
+  integrity sha512-3Ix0XImQxIGKAd9JFwX8D4p4lgpYykQiEGlesGjh1V81gz9dUwn0GXg2drwNfX74moRNEfq39fEPu88j/OVVuA==
+  dependencies:
+    fs-extra "^8.1.0"
+    jsontosass "^0.1.1"
+    resolve-from "^5.0.0"
 
 "@dword-design/test-aliases@^1.0.0":
   version "1.0.2"
@@ -4680,6 +4696,11 @@ require-from-string@^1.2.0:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/require-from-string/-/require-from-string-1.2.1.tgz#529c9ccef27380adfec9a2f965b649bbee636418"
   integrity sha1-UpyczvJzgK3+yaL5ZbZJu+5jZBg=
+
+require-from-string@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/require-from-string/-/require-from-string-2.0.2.tgz#89a7fdd938261267318eafe14f9c32e598c36909"
+  integrity sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==
 
 require-main-filename@^1.0.1:
   version "1.0.1"
