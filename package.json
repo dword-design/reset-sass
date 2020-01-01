@@ -1,16 +1,14 @@
 {
   "name": "@dword-design/reset-sass",
   "version": "1.0.3",
-  "bugs": {
-    "url": "https://github.com/dword-design/reset-sass/issues"
-  },
+  "description": "",
   "repository": "dword-design/reset-sass",
   "license": "MIT",
   "author": "Sebastian Landwehr <info@dword-design.de>",
   "files": [
     "dist"
   ],
-  "main": "dist/index.scss",
+  "main": "dist/index.js",
   "scripts": {
     "prepublishOnly": "base build",
     "start": "base start",
@@ -20,12 +18,8 @@
     "reset-css": "^4.0.1"
   },
   "devDependencies": {
-    "@dword-design/base": "^3.6.0",
-    "@dword-design/base-config-sass": "^2.0.0",
-    "expect": "^24.9.0"
+    "@dword-design/base": "^4.0.0",
+    "@dword-design/base-config-sass": "^2.0.0"
   },
-  "contributors": [
-    "dword-design (http://www.dword-design.de)"
-  ],
-  "maintainers": []
+  "baseConfig": "sass"
 }
