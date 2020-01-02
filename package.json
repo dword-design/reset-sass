@@ -8,7 +8,7 @@
   "files": [
     "dist"
   ],
-  "main": "dist/index.js",
+  "main": "dist/index.scss",
   "scripts": {
     "prepublishOnly": "base build",
     "start": "base start",
