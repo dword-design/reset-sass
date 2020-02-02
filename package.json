@@ -18,7 +18,7 @@
     "reset-css": "^4.0.1"
   },
   "devDependencies": {
-    "@dword-design/base": "^4.0.0",
+    "@dword-design/base": "^5.0.0",
     "@dword-design/base-config-sass": "^2.0.0"
   },
   "baseConfig": "sass"
