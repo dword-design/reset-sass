@@ -5,20 +5,21 @@
   "repository": "dword-design/reset-sass",
   "license": "MIT",
   "author": "Sebastian Landwehr <info@dword-design.de>",
+  "main": "dist/index.scss",
   "files": [
     "dist"
   ],
-  "main": "dist/index.scss",
   "scripts": {
-    "prepublishOnly": "base build",
-    "start": "base start",
+    "depgraph": "base depgraph",
+    "prepare": "base prepare",
+    "prepublishOnly": "base prepublishOnly",
     "test": "base test"
   },
   "dependencies": {
     "reset-css": "^4.0.1"
   },
   "devDependencies": {
-    "@dword-design/base": "^4.0.0",
+    "@dword-design/base": "^5.0.0",
     "@dword-design/base-config-sass": "^2.0.0"
   },
   "baseConfig": "sass"
