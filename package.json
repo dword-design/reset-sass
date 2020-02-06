@@ -16,7 +16,7 @@
     "test": "base test"
   },
   "dependencies": {
-    "reset-css": "^4.0.1"
+    "reset-css": "^5.0.0"
   },
   "devDependencies": {
     "@dword-design/base": "^5.0.0",
