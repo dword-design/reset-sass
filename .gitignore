@@ -1,9 +1,11 @@
 .DS_Store
+/.babelrc.json
 /.cz.json
 /.editorconfig
-/.env
+/.env.json
 /.nyc_output
 /.releaserc.json
+/.test.env.json
 /.vscode
 /coverage
 /dist
