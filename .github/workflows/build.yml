@@ -1,27 +1,25 @@
 name: build
-
 on:
   push:
     branches:
-      - '**'
-
+      - "**"
 jobs:
+  cancel-existing:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: rokroskar/workflow-run-cleanup-action@v0.2.2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   test:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [macos-latest, windows-latest, ubuntu-latest]
-        node: [10, 12]
-        exclude:
-          - os: macos-latest
-            node: 10
-          - os: windows-latest
-            node: 10
+    needs: cancel-existing
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
-          node-version: ${{ matrix.node }}
+          node-version: 12
+      - run: git config --global user.email "actions@github.com"
+      - run: git config --global user.name "GitHub Actions"
       - run: yarn --frozen-lockfile
       - run: yarn test
       - name: Coveralls
@@ -31,7 +29,6 @@ jobs:
           COVERALLS_SERVICE_NAME: github
           COVERALLS_GIT_COMMIT: ${{ github.sha }}
           COVERALLS_GIT_BRANCH: ${{ github.ref }}
-
   release:
     needs: test
     if: github.ref == 'refs/heads/master'
@@ -41,7 +38,10 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
+      - run: git config --global user.email "actions@github.com"
+      - run: git config --global user.name "GitHub Actions"
       - run: yarn --frozen-lockfile
+      - run: yarn lint
       - name: Push changed files
         run: yarn dw-ci push-changed-files
         env:
@@ -51,5 +51,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: |
-          yarn semantic-release
+        run: yarn semantic-release

@@ -11,10 +11,9 @@
   ],
   "scripts": {
     "commit": "base commit",
-    "depgraph": "base depgraph",
+    "lint": "base lint",
     "prepare": "base prepare",
     "prepublishOnly": "base prepublishOnly",
-    "release": "base release",
     "test": "base test"
   },
   "dependencies": {
@@ -24,5 +23,8 @@
     "@dword-design/base": "^6.0.0",
     "@dword-design/base-config-sass": "^2.0.0"
   },
-  "baseConfig": "sass"
+  "publishConfig": {
+    "access": "public"
+  },
+  "baseConfig": "@dword-design/sass"
 }
