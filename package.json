@@ -10,6 +10,7 @@
     "dist"
   ],
   "scripts": {
+    "clean": "base clean",
     "commit": "base commit",
     "lint": "base lint",
     "prepare": "base prepare",
