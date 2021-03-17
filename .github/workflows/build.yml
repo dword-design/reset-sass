@@ -5,8 +5,10 @@ jobs:
     steps:
       - env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        uses: rokroskar/workflow-run-cleanup-action@v0.3.0
+        uses: rokroskar/workflow-run-cleanup-action@v0.3.2
       - uses: actions/checkout@v2
+        with:
+          lfs: true
       - uses: actions/setup-node@v2
         with:
           node-version: 12
@@ -14,7 +16,15 @@ jobs:
       - run: git config --global user.name "GitHub Actions"
       - run: yarn --frozen-lockfile
       - run: yarn test
+      - if: failure()
+        uses: actions/upload-artifact@v2
+        with:
+          path: "**/__image_snapshots__/__diff_output__"
       - run: yarn check-unknown-files
+      - uses: codecov/codecov-action@v1
+        with:
+          fail_ci_if_error: true
+          token: ${{ secrets.CODECOV_TOKEN }}
       - env:
           GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
