@@ -1,3 +1,10 @@
+## [1.0.16](https://github.com/dword-design/reset-sass/compare/v1.0.15...v1.0.16) (2021-04-12)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#23](https://github.com/dword-design/reset-sass/issues/23)) ([c3e1369](https://github.com/dword-design/reset-sass/commit/c3e136977f715e4525212b29e785bb95269d49a0))
+
 ## [1.0.15](https://github.com/dword-design/reset-sass/compare/v1.0.14...v1.0.15) (2021-03-31)
 
 
