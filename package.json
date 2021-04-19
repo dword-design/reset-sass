@@ -22,7 +22,7 @@
     "reset-css": "^5.0.0"
   },
   "devDependencies": {
-    "@dword-design/base": "^7.0.0",
+    "@dword-design/base": "^7.13.2",
     "@dword-design/base-config-sass": "^2.0.0",
     "@dword-design/functions": "^3.0.0",
     "@dword-design/puppeteer": "^3.0.2",
