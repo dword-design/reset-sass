@@ -27,7 +27,7 @@
     "@dword-design/functions": "^3.0.0",
     "@dword-design/puppeteer": "^3.0.2",
     "@dword-design/tester": "^1.2.1",
-    "@dword-design/tester-plugin-puppeteer": "^2.0.0",
+    "@dword-design/tester-plugin-puppeteer": "^2.1.0",
     "depcheck-package-name": "^1.0.4",
     "nuxt": "^2.15.3",
     "nuxt-sourcemaps-abs-sourceroot": "^1.0.0",
