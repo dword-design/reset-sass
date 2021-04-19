@@ -33,7 +33,7 @@
     "nuxt-sourcemaps-abs-sourceroot": "^1.0.0",
     "sass": "^1.32.8",
     "sass-loader": "^10.0.0",
-    "with-local-tmp-dir": "^2.2.16"
+    "with-local-tmp-dir": "^2.2.18"
   },
   "publishConfig": {
     "access": "public"
