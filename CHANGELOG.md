@@ -1,3 +1,10 @@
+## [1.0.19](https://github.com/dword-design/reset-sass/compare/v1.0.18...v1.0.19) (2021-04-26)
+
+
+### Bug Fixes
+
+* update dependency with-local-tmp-dir to v3 ([#34](https://github.com/dword-design/reset-sass/issues/34)) ([deb3206](https://github.com/dword-design/reset-sass/commit/deb3206a9d5b3b35ad5a0e25b334b8173678a404))
+
 ## [1.0.18](https://github.com/dword-design/reset-sass/compare/v1.0.17...v1.0.18) (2021-04-22)
 
 
