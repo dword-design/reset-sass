@@ -9377,7 +9377,7 @@ nuxt-sourcemaps-abs-sourceroot@^1.0.0:
   resolved "https://registry.yarnpkg.com/nuxt-sourcemaps-abs-sourceroot/-/nuxt-sourcemaps-abs-sourceroot-1.0.4.tgz#4157dc695149f25d8c8b9b8f26788643c0682163"
   integrity sha512-J/cPSOuS9Xy1pHuuaIam7ny0mfZRwBnk9x3qpHJJtW3bpg6EW3DcxcXa1mezJ9Pt7/MmeAHcB+vdgqh7dc/KJQ==
 
-nuxt@2.15.4:
+nuxt@^2.15.4:
   version "2.15.4"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-2.15.4.tgz#5e2b441acec7344a1124bb550904b5576c850cef"
   integrity sha512-o11VE61EwLj05PBPUN5RlDpaFb7vKbg3d5c+gfLi0gLVMpLUmjksRVTLzE9Ie8MB/TEnipy5BkhxMNppy0FKVg==
