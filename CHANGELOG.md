@@ -1,3 +1,10 @@
+## [1.0.23](https://github.com/dword-design/reset-sass/compare/v1.0.22...v1.0.23) (2021-05-03)
+
+
+### Bug Fixes
+
+* update dependency nuxt to v2.15.4 ([#41](https://github.com/dword-design/reset-sass/issues/41)) ([3140e2c](https://github.com/dword-design/reset-sass/commit/3140e2c89fcef651e0eb96b5224bbf47f23c5625))
+
 ## [1.0.22](https://github.com/dword-design/reset-sass/compare/v1.0.21...v1.0.22) (2021-05-03)
 
 
