@@ -1,3 +1,14 @@
+## [1.0.25](https://github.com/dword-design/reset-sass/compare/v1.0.24...v1.0.25) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/functions to v4 ([#43](https://github.com/dword-design/reset-sass/issues/43)) ([7ba8e7f](https://github.com/dword-design/reset-sass/commit/7ba8e7f9b68bb5783dbc3360a44d35424c8a02fb))
+* update dependency @dword-design/tester to v2 ([#45](https://github.com/dword-design/reset-sass/issues/45)) ([a7816ff](https://github.com/dword-design/reset-sass/commit/a7816ff4dff3eac8ba97b863d4349ce827a25327))
+* update dependency fs-extra to v10 ([#47](https://github.com/dword-design/reset-sass/issues/47)) ([6544751](https://github.com/dword-design/reset-sass/commit/654475116e73fdc1d397c30f04984b66f8e021b8))
+* update dependency nuxt-sourcemaps-abs-sourceroot to v2 ([#48](https://github.com/dword-design/reset-sass/issues/48)) ([cb8ee0c](https://github.com/dword-design/reset-sass/commit/cb8ee0cec6399faf3127815aab577fa7592ca767))
+* update dependency with-local-tmp-dir to v4 ([#49](https://github.com/dword-design/reset-sass/issues/49)) ([b0c4aeb](https://github.com/dword-design/reset-sass/commit/b0c4aebe3ab334656883412eb19e700970f08346))
+
 ## [1.0.24](https://github.com/dword-design/reset-sass/compare/v1.0.23...v1.0.24) (2021-05-03)
 
 
