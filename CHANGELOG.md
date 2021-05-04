@@ -1,3 +1,10 @@
+## [1.0.26](https://github.com/dword-design/reset-sass/compare/v1.0.25...v1.0.26) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency depcheck-package-name to v2 ([#46](https://github.com/dword-design/reset-sass/issues/46)) ([37e115c](https://github.com/dword-design/reset-sass/commit/37e115c3cd443395393ad86c6d0c5798aca258b4))
+
 ## [1.0.25](https://github.com/dword-design/reset-sass/compare/v1.0.24...v1.0.25) (2021-05-04)
 
 
