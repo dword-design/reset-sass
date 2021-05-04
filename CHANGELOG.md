@@ -1,3 +1,10 @@
+## [1.0.27](https://github.com/dword-design/reset-sass/compare/v1.0.26...v1.0.27) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/puppeteer to v5 ([#44](https://github.com/dword-design/reset-sass/issues/44)) ([7bf9a7a](https://github.com/dword-design/reset-sass/commit/7bf9a7aae04dabfa8574d5fb2d6c9fa0977cc5a4))
+
 ## [1.0.26](https://github.com/dword-design/reset-sass/compare/v1.0.25...v1.0.26) (2021-05-04)
 
 
