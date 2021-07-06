@@ -1,3 +1,10 @@
+## [1.0.30](https://github.com/dword-design/reset-sass/compare/v1.0.29...v1.0.30) (2021-07-06)
+
+
+### Bug Fixes
+
+* update config files ([456254f](https://github.com/dword-design/reset-sass/commit/456254f3347d5fc9a697f263216308fa8c97aff9))
+
 ## [1.0.29](https://github.com/dword-design/reset-sass/compare/v1.0.28...v1.0.29) (2021-06-14)
 
 
