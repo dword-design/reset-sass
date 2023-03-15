@@ -1452,9 +1452,9 @@
     micromatch "^4.0.2"
 
 "@dword-design/base-config-sass@^2.0.0":
-  version "2.0.42"
-  resolved "https://registry.yarnpkg.com/@dword-design/base-config-sass/-/base-config-sass-2.0.42.tgz#b5f5dc4d7f0c38d8b297d4392e233ad4ee87f560"
-  integrity sha512-caGeig8iyapYVl4fdJF3JhZYH2jRFfvI/H63OEqGr+wWbYorQfvKksDHZ3xNMAI94BK9QDRKMg5xpfvfKLk7Ig==
+  version "2.0.43"
+  resolved "https://registry.yarnpkg.com/@dword-design/base-config-sass/-/base-config-sass-2.0.43.tgz#4141a1d222c64b11341ac91ae460c851f1504134"
+  integrity sha512-c4KhLquT/Gr7b3B+6WbYM6xhTyNlq0m9Yr8NxXzIC5oGCNjFPMecxXIZJEnE1eBsIRvDQNYRFbfDqTQQud8yLQ==
   dependencies:
     "@dword-design/depcheck-parser-sass" "^2.0.0"
     "@dword-design/functions" "^4.0.0"
