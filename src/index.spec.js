@@ -13,11 +13,11 @@ export default tester(
         await outputFile(
           'pages/index.vue',
           endent`
-          <template>
-            <button class="foo" />
-          </template>
+            <template>
+              <button class="foo" />
+            </template>
 
-        `
+          `,
         )
 
         const nuxt = new Nuxt({
@@ -36,5 +36,5 @@ export default tester(
       })
     },
   },
-  [testerPluginPuppeteer()]
+  [testerPluginPuppeteer()],
 )
