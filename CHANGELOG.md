@@ -1,3 +1,10 @@
+## [1.0.41](https://github.com/dword-design/reset-sass/compare/v1.0.40...v1.0.41) (2023-03-18)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base-config-sass to v2.0.44 ([b24b7fd](https://github.com/dword-design/reset-sass/commit/b24b7fd944cf9fba499c331ba859547dbe4c1120))
+
 ## [1.0.40](https://github.com/dword-design/reset-sass/compare/v1.0.39...v1.0.40) (2023-03-16)
 
 
