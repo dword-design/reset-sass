@@ -1,3 +1,10 @@
+## [1.0.49](https://github.com/dword-design/reset-sass/compare/v1.0.48...v1.0.49) (2023-03-21)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/tester-plugin-puppeteer to v2.1.42 ([fa2aeb9](https://github.com/dword-design/reset-sass/commit/fa2aeb9469a1dc5120f5a8beb2d0624fc50dc349))
+
 ## [1.0.48](https://github.com/dword-design/reset-sass/compare/v1.0.47...v1.0.48) (2023-03-20)
 
 
