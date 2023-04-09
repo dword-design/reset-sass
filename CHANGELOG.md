@@ -1,3 +1,10 @@
+## [1.0.59](https://github.com/dword-design/reset-sass/compare/v1.0.58...v1.0.59) (2023-04-09)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/tester to v2.0.14 ([8339db4](https://github.com/dword-design/reset-sass/commit/8339db4a8691f6a468194ac190e998107f570ae4))
+
 ## [1.0.58](https://github.com/dword-design/reset-sass/compare/v1.0.57...v1.0.58) (2023-04-09)
 
 
