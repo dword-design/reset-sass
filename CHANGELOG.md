@@ -1,3 +1,10 @@
+## [1.0.61](https://github.com/dword-design/reset-sass/compare/v1.0.60...v1.0.61) (2023-04-09)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/functions to v4.1.7 ([4a3f85e](https://github.com/dword-design/reset-sass/commit/4a3f85ef8d9fdaa60b93ab4638f87805154d85bf))
+
 ## [1.0.60](https://github.com/dword-design/reset-sass/compare/v1.0.59...v1.0.60) (2023-04-09)
 
 
