@@ -1,3 +1,10 @@
+## [1.0.68](https://github.com/dword-design/reset-sass/compare/v1.0.67...v1.0.68) (2023-04-13)
+
+
+### Bug Fixes
+
+* update dependency sass to v1.62.0 ([e12cf85](https://github.com/dword-design/reset-sass/commit/e12cf85798ccfffe2fb71b770d5263fd0ff2cbeb))
+
 ## [1.0.67](https://github.com/dword-design/reset-sass/compare/v1.0.66...v1.0.67) (2023-04-12)
 
 
